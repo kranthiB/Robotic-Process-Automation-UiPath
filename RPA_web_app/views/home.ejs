@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APP">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Employee Details</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        #heading {
+            width: 100%;
+            height: 10%;
+            background-color: #f9f9f9;
+        }
+        #heading span {
+            margin: 10px;
+        }
+        #heading span img {
+            padding-top: 20px;
+        }
+        #content {
+            width: 100%;
+            height: 70%;
+            font-family: sans-serif;
+            margin-left: 3%;
+        }
+        #logoFooter {
+            width: 100%;
+            height: 10%;
+            background-color: #1d2856;
+            text-align: right;
+        }
+        img {
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+        <div id="heading">
+            <span class="pk-logo">
+                <img class="pk-monogram" src="/images/pk-monogram.png" srcset="/images/pk-monogram@2x.png 2x,
+                    /images/pk-monogram@3x.png 3x">
+            </span>
+            <span class="ResearchLab-Logo">
+                <img class="ResearchLab" src="/images/research-lab.png" srcset="/images/research-lab@2x.png 2x,
+                    /images/research-lab@3x.png 3x">
+            </span>
+        </div>
+        
+        <div id="content">
+                <h1>Email Utility</h1>
+                <h4><%= message %></h4>
+                <form method='post' action='upload' enctype="multipart/form-data">
+                <label for="email">Email Id : </label>
+                <input type="text" name="email"></input></br></br>
+                <input type='file' name='fileUploaded'></br></br>
+                <input type='submit' value="Send Email">
+                </form>
+        </div>
+
+        <div  id="logoFooter"><p  id="foot"> Powered by <img  class="PK-White" src="../images/pk-white.png" srcset="/images/pk-white@2x.png 2x,
+            /images/pk-white@3x.png 3x"></p>
+        </div>
+ </body>
+</html>

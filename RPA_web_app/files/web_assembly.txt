@@ -1,0 +1,20 @@
+WebAssembly
+
+1. Web Assembly is a new low level binary for the web
+2. We can write in different languages and compile down to WebAssembly
+3. It runs faster than javascript
+4. For any critical functionality we can use WebAssembly for maximized performance.
+5. Typically, all the browsers has to optimize the javascript before running them. But with WebAssembly the code is already optimized.
+6. Currently WebAssembly supported languages are C, C++ and Rust.
+7. 
+
+
+
+Ideas :
+
+1. Use complex d3 graphs - With or Without WebAssembly
+2. Pac man game - find difference with webassembly and current running on web
+3. 
+4. native node modules
+5. Rust
+6. 
