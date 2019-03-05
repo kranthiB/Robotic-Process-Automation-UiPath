@@ -1,0 +1,15 @@
+Dear admin,
+
+Payslip generation process failed for the below employee
+
+    	      ID - {0}
+            NAME - {1}
+     DESIGNATION - {2}
+       GROSS_PAY - {3}
+GROSS_DEDUCTIONS - {4}
+      NET_SALARY - {5}
+        EMAIL_ID - {6}
+
+
+Thanks and Regards,
+RPA Automation
